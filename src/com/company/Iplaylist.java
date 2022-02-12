@@ -1,5 +1,8 @@
 package com.company;
 
+/**
+ * caracteristicas del reprodutor de musica
+ */
 public interface Iplaylist {
     public void play();
     public void pause();

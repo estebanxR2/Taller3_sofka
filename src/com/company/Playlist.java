@@ -7,6 +7,10 @@ public class Playlist {
     private List<Song> songs;
     private String title;
 
+    /**
+     *
+     * @param title titulo de la cancion
+     */
     public Playlist( String title) {
         this.songs = new ArrayList<>();
         this.title = title;

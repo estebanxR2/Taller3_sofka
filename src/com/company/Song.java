@@ -13,18 +13,31 @@ public abstract class Song {
     private float duration;
     private String genre;
     private String cover;
-    private String descrip;
+    private String description;
 
-    public Song(String title, String id, Date date, float duration, String genre, String cover, String descrip) {
+    /**
+     *
+     * @param title titulo de la cancion
+     * @param id identificador
+     * @param date fecha de la cancion
+     * @param duration duracion
+     * @param genre genero de musica
+     * @param cover caratula de la musica
+     * @param description descripcion
+     */
+    public Song(String title, String id, Date date, float duration, String genre, String cover, String description) {
         this.title = title;
         this.id = id;
         this.date = date;
         this.duration = duration;
         this.genre = genre;
         this.cover = cover;
-        this.descrip = descrip;
+        this.description = description;
     }
 
+    /**
+     *setter and getter
+     */
     public String getTitle() {
         return title;
     }
@@ -73,12 +86,12 @@ public abstract class Song {
         this.cover = cover;
     }
 
-    public String getDescrip() {
-        return descrip;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescription(String descrip) {
-        this.descrip = descrip;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
 }
