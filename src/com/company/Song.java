@@ -1,6 +1,10 @@
 package com.company;
-
+/**
+ * @autor Jair Rincon - jairesrival2@gmail.com
+ * @autor Esteban Garibello -
+ */
 import java.util.Date;
+
 
 public abstract class Song {
     private String title;
