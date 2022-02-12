@@ -1,7 +1,7 @@
 package com.company;
 /**
  * @autor Jair Rincon - jairesrival2@gmail.com
- * @autor Esteban Garibello - kurosakinero23@gmail.com
+ * @autor Esteban Garibello -
  */
 public class Main {
 
